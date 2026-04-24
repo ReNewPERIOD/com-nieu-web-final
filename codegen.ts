@@ -6,12 +6,12 @@ loadEnvConfig(projectDir);
 
 const config: CodegenConfig = {
   overwrite: true,
-  // Sử dụng biến môi trường hoặc link trực tiếp có dấu ? để ổn định hơn
+  // Dùng link trực tiếp có dấu ? để ổn định nhất trên Pantheon
   schema: "https://dev-comnieudanhtien.pantheonsite.io/?graphql", 
   generates: {
     "src/gql/": {
       preset: "client",
-      plugins: [], // Đảm bảo mảng plugins trống để preset client tự xử lý
+      plugins: [],
     },
     "src/gql/schema.gql": {
       plugins: ["schema-ast"],
