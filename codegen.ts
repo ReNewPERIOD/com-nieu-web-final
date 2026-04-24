@@ -7,7 +7,7 @@ loadEnvConfig(projectDir);
 const config: CodegenConfig = {
   overwrite: true,
   schema: {
-    ['https://dev-comnieudanhtien.pantheonsite.io/graphql']: {
+    ['https://dev-comnieudanhtien.pantheonsite.io/?graphql']: {
       headers: {
         "User-Agent": "Codegen",
       },
