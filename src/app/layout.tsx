@@ -1,4 +1,3 @@
-// @ts-nocheck
 import { draftMode } from "next/headers";
 import { Inter } from "next/font/google";
 

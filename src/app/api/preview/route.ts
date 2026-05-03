@@ -1,4 +1,3 @@
-// @ts-nocheck
 import { print } from "graphql/language/printer";
 
 import { ContentNode, LoginPayload } from "@/gql/graphql";

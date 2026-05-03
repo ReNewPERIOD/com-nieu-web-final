@@ -1,12 +1,12 @@
 {
   "private": true,
   "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "lint": "eslint .",
-  "codegen": "graphql-codegen --config codegen.ts"
-},
+    "dev": "graphql-codegen --config codegen.ts && node ./add-ts-nocheck.js && next dev",
+    "build": "graphql-codegen --config codegen.ts && node ./add-ts-nocheck.js && next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "codegen": "graphql-codegen --config codegen.ts && node ./add-ts-nocheck.js"
+  },
   "dependencies": {
     "graphql": "^16.9.0",
     "graphql-tag": "^2.12.6",
