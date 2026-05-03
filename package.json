@@ -9,7 +9,7 @@
     "lint": "next lint",
     "codegen": "graphql-codegen --config codegen.ts"
   },
- "dependencies": {
+  "dependencies": {
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
@@ -30,3 +30,4 @@
     "tailwindcss": "latest",
     "autoprefixer": "latest"
   }
+}
